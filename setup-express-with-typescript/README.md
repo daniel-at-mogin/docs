@@ -59,4 +59,4 @@
    yarn start:dev
    ```
 
-Read this documentation in [🇮🇩 Bahasa](./README.md)
+Read this documentation in [🇮🇩 Bahasa](./README-IN.md)
