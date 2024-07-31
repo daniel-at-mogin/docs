@@ -39,10 +39,8 @@
 
    ```json
    "compilerOptions" : {
-     // other configurtion
-     "rootDir": "./src", // could use a different folder, just specify the right folder that contain the *.ts file
-     "outDir": "./dist" // could use a different folder, This will be the output folder that contain the *.js file
-     // other configurtion
+     "rootDir": "./src",
+     "outDir": "./dist"
    }
    ```
 
@@ -50,7 +48,6 @@
 
    ```json
    "scripts" : {
-     // other script
      "build": "tsc --build",
      "start" : "node ./dist/index.js",
      "start:dev" : "nodemon ./src/index.ts"
@@ -61,3 +58,5 @@
    ```console
    yarn start:dev
    ```
+
+Baca juga dokumentasi ini dalam [🇺🇸 Bahasa Inggris](./README.md)
