@@ -26,13 +26,16 @@
 
    ```console
    yarn add express
+   ```
+
+   ```console
    yarn add typescript @types/express nodemon ts-node -D
    ```
 
 1. Inisialisasi file konfigurasi TypeScript
 
    ```console
-   npx tsc --init
+   yarn tsc --init
    ```
 
 1. Konfigurasikan `rootDir` dan `outDir` di `tsconfig.json`
